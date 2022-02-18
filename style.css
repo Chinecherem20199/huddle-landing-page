@@ -6,7 +6,7 @@ header {
   justify-content: space-between;
   font-family: "https://fonts.google.com/specimen/Poppins";
 }
-.hundle-content {
+/* .hundle-content {
   background-color: hsl(193, 100%, 96%);
   display: flex;
   flex-direction: row;
@@ -17,26 +17,57 @@ header {
   max-width: 100%;
   flex-basis: 0%;
   font-family: "https://fonts.google.com/specimen/Open+Sans";
-}
+} */
 #buttton {
   background-color: #fff;
   margin: 50px;
   padding: 10px;
+  flex: 1;
   /* padding: 15px 30px 15px 30px; */
   border:hsl(193, 100%, 96%);
   font-weight: 600;
   text-align: center;
   width: 120px;
-  max-width: 20%;
+  max-width: 10%;
   border-radius: 15px;
   font-style: initial;
   cursor: pointer;
   display: inline-block;
 }
+@media screen and (min-width: 375px) {
+  .hundle-content{
+     background-color: hsl(193, 100%, 96%);
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  justify-items: auto;
+  justify-content: space-between;
+  /* width: 1440px; */
+  max-width: 100%;
+  flex-basis: 0%;
+  font-family: "https://fonts.google.com/specimen/Open+Sans";
+  }
+  @media screen and (max-width: 1440px) {
+    .hundle-content{
+       background-color: hsl(193, 100%, 96%);
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  justify-items: auto;
+  justify-content: space-between;
+  /* width: 1440px; */
+  max-width: 100%;
+  flex-basis: 0%;
+  font-family: "https://fonts.google.com/specimen/Open+Sans";
+    }
+  }
+}
 header img{
     margin: 50px 50px 50px 20px;
     padding: 15px 30px 15px 30px;
-    width: 40%;
+    width: 150px;
+    max-width: 100%;
+    flex: 1;
   
 }
 .hundle-content img{
